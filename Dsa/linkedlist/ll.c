@@ -1,11 +1,11 @@
 #include "ll.h"
 node *create_node(int value)
 {
-    node *new;
-    new = (node *)malloc(sizeof(node));
-    new->data = value;
-    new->next = NULL;
-    return new;
+    node *temp;
+    temp = (node *)malloc(sizeof(node));
+    temp->data = value;
+    temp->next = NULL;
+    return temp;
 }
 void append(node **head, int value)
 {
