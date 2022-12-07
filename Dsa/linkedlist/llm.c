@@ -8,4 +8,5 @@ int main()
     append(&head, 36);
     printf("THE LINKED LIST IS WHATEVER \n");
     traverse(head);
+    return 0;
 }
