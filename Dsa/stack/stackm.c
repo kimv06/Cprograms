@@ -14,5 +14,5 @@ int main()
     else
         printf("The delected element is: %d\n",shyam);
     peek(temp);
-    
+    return 0;
 }
